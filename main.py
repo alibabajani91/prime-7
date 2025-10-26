@@ -10,10 +10,8 @@ def number_check(number):
         print(f"the {number} number is a prime number")
 
 while True:
-    try:
-        number_entry = int(input("enter a number:"))
-    except:
-        print("enter a number please, not text")
+
+    number_entry = int(input("enter a number:"))
     if number_entry == any:
         number_check(number_entry)
 
