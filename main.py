@@ -13,6 +13,8 @@ def number_check(number_entry):
         print("11 is a prime number")
 
 while True:
-    number_entry = int(input("enter a number:"))
-    number_check(number_entry)
-
+    try:
+        number_entry = int(input("enter a number:"))
+        number_check(number_entry)
+    except ValueError:
+        print("enter a number,not text")
