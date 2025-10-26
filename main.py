@@ -6,9 +6,9 @@ def number_check(number_entry):
     c_11 = number_entry % 11
     if number_entry == 3 or number_entry == 2 or number_entry == 5 or number_entry == 7 or number_entry == 11:
         print(f"{number_entry} is a prime number")
-    if number_entry == 1:
+    elif number_entry == 1:
         print("not defined")
-    if c_2 == 0 or c_3 == 0 or c_5 == 0 or c_7 == 0 or c_11 == 0:
+    elif c_2 == 0 or c_3 == 0 or c_5 == 0 or c_7 == 0 or c_11 == 0:
         print(f"{number_entry} is a complex number")
     else:
         print(f"{number_entry} is a prime number")
