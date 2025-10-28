@@ -45,5 +45,9 @@ while True:
         some_number()
     elif cmd == "one number":
         one_number()
+    elif cmd == "help":
+        with open("readme.txt", "r") as f:
+            print(f.read())
+        
     else:
         print("this command not defined, or maybe you write it wrong!")
